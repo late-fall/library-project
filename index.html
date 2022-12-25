@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Library Project</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My Book Library</h1>
+        <h2>Use form below to add a book.</h2>
+        <div class="add-book">
+            <label for="booktitle"><input type="text" id="booktitle" placeholder="Title"></label>
+            <label for="author"><input type="text" id="author" placeholder="Author"></label>
+            <label for="year"><input type="number" id="year" placeholder="Year"></label>
+            <input type="checkbox" id="read"><label for="read">Read?</label>
+            <label for="submit"><input type="submit" id="addBtn" value="Add"></label>
+        </div>
+        <div class="list">
+            <div class="item item-title">
+                <div class="title">
+                    <h3>Title</h3>
+                </div>
+                <div class="author">
+                    <h3>Author</h3>
+                </div>
+                <div class="year">
+                    <h3>Published Year</h3>
+                </div>
+                <div class="read">
+                    <h3>Read?</h3>
+                </div>
+                <div class="remove">
+                    <h3>Click to Remove</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

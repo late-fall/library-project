@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #FEFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #3AAFA9;
+    height: 100vh;
+}
+h1{
+    margin: 20px 0;
+    color: #FEFFFF;
+    text-align: center;
+}
+h2{
+    margin: 15px0;
+    color: #17252A;
+    text-align: center;
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+.add-book{
+    text-align: center;
+    padding: 10px;
+}
+input{
+    font-size: 20px;
+    margin: 5px;
+}
+#booktitle{
+    min-width: 400px;
+}
+#author{
+    min-width: 300px;
+}
+#year{
+    width: 60px;
+}
+#read + label{
+    color: #17252A;
+    font-size: 20px;
+}
+.item-title{
+    background-color: #2B7A78;
+}
+.year, .read, .remove{
+    text-align: center;
+}
+.item{
+    display: grid;
+    grid-template-columns: minmax(350px, 4fr) minmax(200px, 2fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+    padding: 10px;
+    font-size: 18px;
+}
+.status-read{
+    background-color: rgba(8, 97, 0, 0.63);
+}
+.status-unread{
+    background-color: rgba(255, 0, 0, 0.493);
+}
+p{
+    padding: 0;
+    margin: 0;
+}
